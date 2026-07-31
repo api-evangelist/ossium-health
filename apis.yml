@@ -1,8 +1,16 @@
 aid: ossium-health
 name: Ossium Health
-description: Ossium Health is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Ossium Health is a bioengineering company developing off-the-shelf cell
+  therapies manufactured from stem cells recovered from deceased organ and
+  tissue donors. The company operates a proprietary bone marrow and tissue
+  recovery, banking, and manufacturing platform, and is advancing a clinical
+  pipeline of allogeneic cellular therapies targeting hematologic diseases,
+  organ transplant tolerance, and orthopedic conditions. Ossium Health is a
+  private, venture-backed life sciences company; it does not currently publish
+  a public developer program, API, or SDKs. This profile is maintained in the
+  API Evangelist network as a company/provider record and was surfaced as a
+  portfolio company of General Catalyst.
 url: https://raw.githubusercontent.com/api-evangelist/ossium-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +18,56 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://ossiumhealth.com/wp-content/uploads/2022/01/ossium-logo.png
 tags:
 - Company
+- Biotechnology
+- Life Sciences
+- Cell Therapy
+- Regenerative Medicine
+- Healthcare
+- Bioengineering
 apis: []
+common:
+- type: Website
+  url: https://ossiumhealth.com
+- type: Platform
+  url: https://ossiumhealth.com/platform/
+- type: Blog
+  url: https://ossiumhealth.com/newsroom/
+- type: Support
+  url: https://ossiumhealth.com/contact-us/
+- type: TermsOfService
+  url: https://ossiumhealth.com/legal-policies/#terms_of_use
+- type: PrivacyPolicy
+  url: https://ossiumhealth.com/legal-policies/#privacy_policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ossiumhealth/
+- type: Twitter
+  url: https://twitter.com/OssiumHealth
+- type: DomainSecurity
+  url: security/ossium-health-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
